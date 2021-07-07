@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+.navContainer img {
+  margin-left: 20px; }
+
+.navContainer .navEnlaces {
+  margin: 0 25px 0 35px; }
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 250px 0 20px 150px; }
+
+.nosotrosContainer {
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
+  padding-top: 80px;
+  background-color: grey; }
+  .nosotrosContainer .nosotros__titulo {
+    display: flex;
+    flex-direction: column; }
+    .nosotrosContainer .nosotros__titulo h2 {
+      text-align: center;
+      margin-bottom: 35px; }
+    .nosotrosContainer .nosotros__titulo p {
+      text-align: center;
+      padding: 0 300px 0 300px;
+      margin-bottom: 50px; }
+  .nosotrosContainer .cartasNosotros {
+    display: flex;
+    justify-content: space-evenly; }
+    .nosotrosContainer .cartasNosotros .carta {
+      width: 250px; }
+
+.talleresContainer {
+  display: flex;
+  flex-direction: column;
+  height: 170vh;
+  padding-top: 80px;
+  background-color: lightgrey; }
+  .talleresContainer h2 {
+    text-align: center;
+    margin-bottom: 35px; }
+  .talleresContainer .cartasTalleres {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px; }
+    .talleresContainer .cartasTalleres .carta {
+      width: 230px;
+      height: 250px; }
+
+.redesContainer {
+  display: flex;
+  flex-direction: column;
+  height: 110vh;
+  padding-top: 80px;
+  background-color: grey; }
+  .redesContainer h2 {
+    text-align: center;
+    margin-bottom: 45px; }
+  .redesContainer .iconosRedes {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 550px 0 550px;
+    margin-bottom: 80px; }
+    .redesContainer .iconosRedes .instaIcon {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+      -webkit-background-clip: text;
+      /* Also define standard property for compatibility */
+      background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .redesContainer .iconosRedes .faceIcon {
+      color: blue; }
+  .redesContainer .cartasRedes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px; }
+    .redesContainer .cartasRedes .carta {
+      width: 250px;
+      height: 250px; }
+
+.contactoContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  padding-top: 80px;
+  background-color: lightgrey; }
+  .contactoContainer .formContainer {
+    width: 650px;
+    padding-left: 150px; }
+    .contactoContainer .formContainer .titulos i,
+    .contactoContainer .formContainer .titulos h2 {
+      margin-bottom: 20px; }
+    .contactoContainer .formContainer .titulos h3 {
+      margin-bottom: 30px; }
+    .contactoContainer .formContainer .mb-4 {
+      display: flex;
+      justify-content: center; }
+  .contactoContainer .informContainer {
+    display: flex;
+    align-items: center;
+    width: 550px; }
+    .contactoContainer .informContainer .infoCaja {
+      width: 100%;
+      height: 350px;
+      background-color: grey;
+      padding: 20px 0 0 70px; }
+      .contactoContainer .informContainer .infoCaja .titulo {
+        margin-bottom: 30px; }
+      .contactoContainer .informContainer .infoCaja div {
+        display: flex;
+        margin-bottom: 20px; }
+        .contactoContainer .informContainer .infoCaja div i {
+          padding: 4px 0 0 10px; }
+        .contactoContainer .informContainer .infoCaja div p {
+          margin-left: 15px; }
+
+.donacionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding-top: 80px; }
+  .donacionContainer .titulo {
+    margin-bottom: 30px; }
+  .donacionContainer .modifInput {
+    width: 500px; }
+
+.footerContainer {
+  background-color: lightgrey;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .footerContainer .foot1 {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly; }
+    .footerContainer .foot1 div {
+      display: flex;
+      flex-direction: column; }
+    .footerContainer .foot1 a {
+      text-decoration: none; }
+    .footerContainer .foot1 i {
+      margin-right: 10px; }
+  .footerContainer .infoFoot {
+    padding-right: 60px; }
